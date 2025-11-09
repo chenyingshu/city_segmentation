@@ -55,10 +55,8 @@ def get_parser():
     parser.add_argument("--video-input", help="Path to video file.")
     parser.add_argument(
         "--input",
-        nargs="+",
-        # help="A list of space separated input images; "
-        # "or a single glob pattern such as 'directory/*.jpg'",
-        help="A list of space separated directories containing input images.",
+        help="A list of space separated directories containing input images, " \
+        "e.g., images/ with several image folders, or with images",
     )
     parser.add_argument(
         "--output",
@@ -110,13 +108,11 @@ if __name__ == "__main__":
     demo = VisualizationDemo(cfg)
 
     if args.input:
-        # print(args.input, f"{args.input[0]}/*")
-        dirlist = glob.glob(f"{args.input[0]}/*")
-        # print(dirlist)
+        dirlist = glob.glob(f"{args.input}/*")
+        if not os.path.isdir(dirlist[0]):
+            dirlist = [args.input]
+        print(dirlist)
         dirlist.sort()
-        # if len(args.input) == 1:
-        #     args.input = glob.glob(os.path.expanduser(args.input[0]))
-        #     assert args.input, "The input path(s) was not found"
         for dir in dirlist:
             if not os.path.isdir(dir):
                 continue

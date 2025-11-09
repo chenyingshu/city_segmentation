@@ -1,5 +1,5 @@
 # City Segmentation
-The 2D segmentation model for ECCV 2024 paper [StyleCity](ttps://www.chenyingshu.com/stylecity3d/assets/StyleCity).
+The 2D segmentation model for ECCV 2024 paper [StyleCity](https://www.chenyingshu.com/stylecity3d).
 
 # Introduction
 This repository is a duplicate repo of [Mask2Former](https://github.com/facebookresearch/Mask2Former), but we retrained the model with customized classes.
@@ -17,21 +17,25 @@ We found the existing pre-trained Mask2Former models have an unsatisfying perfor
 ## Installation
 
 ### Example conda environment setup
+Tested with NVIDIA GeForce RTX 3090 with 24GB.
 
 ```bash
+# note that detectron2 only supports python<=3.9
 conda create --name mask2former python=3.8 -y
 conda activate mask2former
-conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch -c nvidia
-pip install -U opencv-python
 
 # under your working directory
 git clone https://github.com/chenyingshu/city_segmentation.git
 cd city_segmentation
+
+conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch -c nvidia
+conda install mkl=2022.1.0
+
+pip install -U opencv-python
+
 # Note that directly use modified detectron2 in this repo
 cd detectron2
 pip install -e .
-pip install git+https://github.com/cocodataset/panopticapi.git
-pip install git+https://github.com/mcordts/cityscapesScripts.git
 cd ..
 pip install -r requirements.txt
 cd mask2former/modeling/pixel_decoder/ops
@@ -39,7 +43,8 @@ sh make.sh
 ```
 
 For more details please refer to original repo's [installation instructions](INSTALL.md).
-But note that please use the modified detectron2 in this repo.
+
+**Note that please use the modified detectron2 in this repo.**
 
 ### Pre-trained Checkpoint
 
