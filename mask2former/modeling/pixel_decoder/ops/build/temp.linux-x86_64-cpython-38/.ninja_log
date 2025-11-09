@@ -1,0 +1,4 @@
+# ninja log v5
+0	3099	1666688718510052025	/mnt/hdd/susan/Mask2Former_Color/mask2former/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/mask2former/modeling/pixel_decoder/ops/src/cpu/ms_deform_attn_cpu.o	e41c34818f321029
+1	9445	1666688724842062244	/mnt/hdd/susan/Mask2Former_Color/mask2former/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/mask2former/modeling/pixel_decoder/ops/src/cuda/ms_deform_attn_cuda.o	6e4d62291e02dcfb
+1	15714	1666688731110072296	/mnt/hdd/susan/Mask2Former_Color/mask2former/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/mask2former/modeling/pixel_decoder/ops/src/vision.o	c6b2abd1a1da3c8

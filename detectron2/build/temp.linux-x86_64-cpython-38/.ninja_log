@@ -1,0 +1,12 @@
+# ninja log v5
+2	803	1666688596809841803	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/cuda_version.o	c3e9292ed0219815
+1	5685	1666688601689850779	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cpu.o	2227455f9a835fb5
+3	6924	1666688602929853053	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated_cpu.o	db67d4c05654678e
+1	7778	1666688603781854613	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/cocoeval/cocoeval.o	3f1f52cdaf12ffbe
+0	8021	1666688604021855052	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cpu.o	106f25ff4ee5500
+0	9602	1666688605597857933	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cuda.o	39d2f3f78a7feade
+2	10218	1666688606221859072	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/deformable/deform_conv_cuda_kernel.o	37348a88651ed810
+1	10894	1666688606893860299	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cuda.o	b97f12f760187957
+3	11619	1666688607613861611	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated_cuda.o	8e6a2525aa3785ac
+2	13043	1666688609041864212	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/deformable/deform_conv_cuda.o	3c0a54d5693fe6c3
+3	21959	1666688617941880325	/mnt/hdd/susan/Mask2Former_Color/detectron2/build/temp.linux-x86_64-cpython-38/mnt/hdd/susan/Mask2Former_Color/detectron2/detectron2/layers/csrc/vision.o	6d2b540d6459085b
